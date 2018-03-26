@@ -1,0 +1,23 @@
+{
+  "name": "preset",
+  "version": "1.0.0",
+  "description": "preset setup",
+  "main": "ex1.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "npm run build && node lib/parseString.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "michael angerman",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^0.13.2",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-env": "*"
+  }
+}

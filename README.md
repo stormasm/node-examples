@@ -1,1 +1,1 @@
-# node-examples
+# graphql-redis-github
